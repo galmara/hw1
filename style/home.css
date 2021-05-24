@@ -1,0 +1,346 @@
+body {
+    margin: 0px;
+    background-color: lavender;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.button{
+    font-family: "Antic", sans-serif;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 2px whitesmoke solid;
+    background-color: thistle;
+    margin: 3px;
+}
+
+#cerca{
+    margin-left: 7px;
+}
+
+#prodotti{
+    font-size: 17px;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border: 2px black solid;
+    transition: border ease 0.5s;
+
+}
+
+form {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;   
+    flex-direction: row;
+    justify-content: center;
+}
+
+form .button{
+    cursor: pointer;
+}
+
+form select{
+    margin-left: 5px;
+    font-family: "Antic", sans-serif;
+}
+
+#logo{
+    background-image: url("background.jpg");  
+    height: 200px;
+    color: white; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 2px;
+}
+
+header h1{
+    font-family: "Della Respira", sans;
+    letter-spacing: 7px;
+    text-transform: uppercase; 
+    background-color: black;
+    z-index: 1; 
+} 
+
+header .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+div, section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Maven Pro", verdana;    
+    text-transform: uppercase; 
+}
+
+h1{
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#descr .button{
+    margin-top: 1%;
+    max-width: 40%;
+}
+
+#descr h1{
+    font-size: 1.3em;
+    margin-bottom: -5px;
+}
+
+h2{
+    font-style: italic;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 1%;
+}
+
+.centrato{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+} 
+
+.service{
+    float: left;
+    width: 49%;
+    background-color: rgba(0,0,0,.1);
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.service#int{
+    width: 100%;
+    float: none;
+}
+
+.categoria img{
+    max-width: 200px;
+    
+}
+
+#service h2{
+    margin-top: 10px;
+}
+ 
+.cont{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#uscite{
+    flex-direction: column;
+}
+
+#tabs{
+    text-align: left;
+}
+
+#tabs ul{
+   column-count: 2; 
+}
+
+#tabs .button{
+    font-size: 0.7em;
+    padding: 0px 10px;
+}
+
+#uscite img{
+    max-width: 70px;
+    margin: 2px 5px;
+
+}
+
+.row{
+    flex-direction: row;
+} 
+
+.service h5{
+    font-style: italic;
+    margin-top: -7px;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.hidden{
+    display: none;
+}
+
+.prodotti{
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 3%;
+}
+
+.tasto{
+    max-width: 40%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#product{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    margin-top: 1%;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.details{
+    flex-direction: row;
+}
+
+.details div{
+    text-transform: none;
+    text-align: left;
+}
+
+.details img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.details h6{
+    font-weight: normal;
+    margin-right: 10%;
+}
+
+.pref img{
+    max-width: 20px;
+    margin-right: 20;
+    cursor: pointer;
+}
+
+.pref{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.block{
+    display:block;  
+}
+
+#description{
+    flex-direction: column;
+}
+
+#indietro{
+    text-align: center;
+}
+
+#contenitore{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#contenitore img{
+    max-width: 15px;
+    margin-left: 10px;
+}
+
+table{
+    width: 100%;   
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+td{
+    padding: 15px;
+}
+
+.aggiornamento h6{
+    margin: 1%;   
+}
+
+footer{
+    background-color: black;
+    padding: 5%;
+    font-family: "Nanum Myeongjo", arial;
+    color: lavender;
+    text-align: center;
+    line-height: .9em;
+    margin-top: 2%;
+}
+  
+footer p {
+   color: thistle; 
+   font-size: 0.9em;
+}
+
+@media (max-width: 850px){
+    body{
+        font-size: 0.7em;
+    }
+
+    .categoria img{
+        max-width: 50px;
+    }
+
+    #uscite img{
+        max-width: 30px;
+    }
+}

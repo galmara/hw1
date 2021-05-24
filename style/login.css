@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    background-color: lavender;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.button{
+    font-family: "Antic", sans-serif;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 2px whitesmoke solid;
+    background-color: thistle;
+    margin: 3px;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border: 2px black solid;
+    transition: border ease 0.2s;
+    cursor: pointer;
+}
+
+#logo{
+    background-image: url("background.jpg");  
+    height: 200px;
+    color: white; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 2px;
+}
+
+header h1{
+    font-family: "Della Respira", sans;
+    letter-spacing: 7px;
+    text-transform: uppercase; 
+    background-color: black;
+    z-index: 1; 
+} 
+
+header .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+header h1{
+    font-family: "Della Respira", sans;
+    letter-spacing: 7px;
+    text-transform: uppercase; 
+    background-color: black;
+    z-index: 1; 
+} 
+
+header .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+footer{
+    background-color: black;
+    padding: 5%;
+    font-family: "Nanum Myeongjo", arial;
+    color: lavender;
+    text-align: center;
+    line-height: .9em;
+    margin-top: 2%;
+}
+  
+footer p {
+   color: thistle; 
+   font-size: 0.9em;
+}
+
+
+@media (max-width: 850px){
+    body{
+        font-size: 0.7em;
+    }
+
+    .categoria img{
+        max-width: 50px;
+    }
+
+    #uscite img{
+        max-width: 30px;
+    }
+}
+
+#log{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.394);
+    width: 30%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: "Maven Pro", verdana;    
+    border-radius: 20px;
+}
+
+#log a{
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin-top: 4%;   
+    margin-left: 2%;
+    border-radius: 5px;
+    transition: border ease 0.2s;
+    border: 2px rgba(71, 6, 74, 0.496) solid;
+}
+
+input[type=submit]{
+    margin: 2%;
+}
+
+h5.signup{
+    margin-top: -1%;
+    font-weight:lighter;
+}
+
+.hidden{
+    display:none;
+}
+
+.error{
+    color: rgb(172, 0, 0); 
+}
+
+.error_s{
+    border: 2px double red;
+}
+
