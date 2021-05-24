@@ -1,3 +1,6 @@
+create database auditorium;
+use auditorium;
+
 create table CLIENTE(
     ID integer primary key AUTO_INCREMENT,
     nome varchar(16),
