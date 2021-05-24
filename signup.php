@@ -40,7 +40,7 @@
             }
 
             //Verifica cellulare
-            if(!preg_match('/^[0-9+]$/', $_POST["cell"])){
+            if(!preg_match('/^[0-9+]{10,}$/', $_POST["cell"])){
                 $err=true;
             }
     
