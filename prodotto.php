@@ -48,8 +48,12 @@
                         <div>
                             <h6></h6>
                             <div class="pref">
-                                <h5><h5>
-                                <img id = "agg" src="./images/add_pref.png">
+                                <h5><h5> 
+                                    <?php 
+                                    if (isset($_SESSION["nome"])) {
+                                        echo "<img id = 'agg' src='./images/add_pref.png'>";
+                                    }
+                                    ?>
                             </div>    
                         </div>
                     </div>
